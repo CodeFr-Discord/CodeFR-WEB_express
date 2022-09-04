@@ -3,16 +3,16 @@ import React from 'react';
 import Navbar from '../components/Navbar/navbar-container';
 import Footer from '../components/Footer/footer-container';
 
-import Home from '../components/Home/page';
+import Page from '../components/Contact/page';
 
-const Main = () => {
+const Contact = () => {
     return(
         <div className='mainPage'>
             <Navbar/>
-            <Home/>
+            <Page/>
             <Footer/>
         </div>
     )
 }
 
-export default Main;
+export default Contact;

@@ -1,0 +1,5 @@
+.about-btn, .about-txt:hover {
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+}

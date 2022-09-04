@@ -1,0 +1,79 @@
+.section {
+    padding: 6rem 0 6rem;
+}
+
+.team-container {
+    max-width: 1120px;
+    display: grid;
+    padding: 15px;
+    margin: 10px auto 0;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 35px 0 0;
+}
+
+.team_profile-container {
+    width: 340px;
+    display: block;
+    text-align: center;
+    padding: 35px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 0.75rem;
+}
+
+.team_profile-container:hover, .team_profile-header {
+    border: solid 1px rgb(97, 125, 255);
+    box-shadow: 10px #8b95eb;
+}
+
+.team_profile-header {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: -85px 50% 25px;
+    border-radius: 5rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%);
+}
+
+.team_pseudo {
+    font-size: 24px;
+    color: rgb(97, 125, 255);
+    font-weight: bold;
+}
+
+.rank {
+
+}
+
+.location {
+
+}
+
+.team-posts {
+    display: flex;
+    justify-content: center;
+    margin: 0 45px 0;
+}
+
+.team-posts p {
+    margin: 5px 8px 0;
+}
+
+.team-social button {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: red;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 1rem;
+    margin: 15px 8px 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}

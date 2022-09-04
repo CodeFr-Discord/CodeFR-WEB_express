@@ -1,0 +1,41 @@
+.home {
+    padding: 10rem 0 5rem; 
+}
+
+.home-data {
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.home-data h1 {
+    font-size: 45px;
+}
+
+.home-header {
+    position: absolute;
+    bottom: 350px;
+    right: 300px;
+    width: 640px;
+}
+
+.home-header img {
+    height: 400px;
+    width: 550px;
+}
+
+.home-button {
+    position: absolute;
+    display: block;
+    margin: 15px 0 0;
+    padding: 20px 35px;
+    font-size: 16px;
+    border-radius: 0.75rem;
+    color: #000;
+    background: rgb(97, 125, 255);
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background: rgba(133, 155, 252, 0.76);
+}

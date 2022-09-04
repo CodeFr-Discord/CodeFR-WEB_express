@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #b9c0fc; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b95eb;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8b95eb; 
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.about-header {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 340px;
+}
+
+.about-header img {
+    height: 400px;
+    width: 400px;
+}
+
+.about-data {
+    text-align: center;
+    padding: 20px;
+}

@@ -8,7 +8,10 @@ const Navbar = () => {
                     <a href='contact' className='nav_link'>Contact</a>
                 </li>
                 <li className='nav_item'>
-                    <a href='about' className='nav_link'>A propos</a>
+                    <a href='team' className='nav_link'>Equipe</a>
+                </li>
+                <li className='nav_item'>
+                    <a href='about-us' className='nav_link'>A propos</a>
                 </li>
                 <li className='nav_item'>
                     <a href='learning' className='nav_link'>Apprentissage</a>
@@ -20,6 +23,7 @@ const Navbar = () => {
             <div className='logo'>
                 <img src='https://imgur.com/cZLDjTv.jpg' className='img'></img>
             </div>
+            <a className='title'>CodeFr</a>
         </div>
     )
 }
