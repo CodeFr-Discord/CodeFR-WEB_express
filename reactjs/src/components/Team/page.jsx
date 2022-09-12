@@ -44,7 +44,7 @@ const Team = () => {
                                     <i className='fa-solid fa-keyboard'></i> Créateur
                                 </p>
                                 <p className='info location'>
-                                    <i class="fa-solid fa-location-dot"></i> Annecy, France
+                                    <i class="fa-solid fa-location-dot"></i> Bordeaux, France
                                 </p>
                                 <div className='team-posts'>
                                     <p><span>11</span> Repo</p>
