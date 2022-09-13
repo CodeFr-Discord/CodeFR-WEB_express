@@ -23,17 +23,19 @@
 }
 
 .about-header {
-    margin-left: 50%;
+    margin-left: 85%;
+    margin-top: -100px;
     transform: translateX(-50%);
     width: 340px;
 }
 
 .about-header img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .about-data {
     text-align: center;
     padding: 20px;
+    margin-top: -150px;
 }
