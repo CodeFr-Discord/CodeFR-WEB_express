@@ -1,5 +1,49 @@
-.about-btn, .about-txt:hover {
-    background-color: transparent;
+.langs-list {
+    list-style-type: none;
+}
+
+.lang {
+    display: block;
+    margin: 16px 10px;
+}
+
+.item {
+    text-decoration: none;
     color: black;
-    text-decoration: underline;
+}
+
+.javascript {
+    border-left: 6px solid yellow;
+    height: 30px;
+    position: absolute;
+}
+
+.typescript {
+    border-left: 6px solid navy;
+    height: 30px;
+    position: absolute;
+}
+
+.python {
+    border-left: 6px solid blue;
+    height: 30px;
+    position: absolute;
+}
+
+.html {
+    border-left: 6px solid orange;
+    height: 30px;
+    position: absolute;
+}
+
+.css {
+    border-left: 6px solid red;
+    height: 30px;
+    position: absolute;
+}
+
+.sql {
+    border-left: 6px solid green;
+    height: 30px;
+    position: absolute;
 }

@@ -68,6 +68,8 @@
 }
 
 .team-social button {
+    float: left;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     border: none;

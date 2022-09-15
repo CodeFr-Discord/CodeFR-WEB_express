@@ -17,7 +17,7 @@
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 4.5%;
+    margin-left: 1%;
 }
 
 .navbar .nav_logo {
@@ -26,20 +26,21 @@
 }
 
 .navbar .nav_list {
-    height: 50px;
+    height: 60px;
     list-style-type: none;
     margin: 0;
-    margin-right: 100px;
+    margin-top: 5px;
     padding: 0;
     overflow: hidden;
 }
 
 .nav_list .nav_item {
+    margin-right: 10px;
     float: right;
 }
 
-.nav_link .logo {
-    float: left;
+.img {
+    margin-left: 10px;
 }
 
 .nav_item .nav_link {
@@ -65,4 +66,15 @@
     height: 35px;
     width: 35px;
     border-radius: 50%;
+}
+
+.nav_link.account {
+    background-color: rgb(97, 125, 255);
+    border-radius: 15px;
+}
+
+.nav_link.account:hover {
+    background-color: rgba(133, 155, 252, 0.76);
+    color: black;
+    text-decoration: none;
 }
