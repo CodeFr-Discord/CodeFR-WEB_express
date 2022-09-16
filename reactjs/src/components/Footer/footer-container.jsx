@@ -33,6 +33,9 @@ const Footer = () => {
                             <a href=''>Discord</a>
                         </li>
                         <li>
+                            <a href=''>Github</a>
+                        </li>
+                        <li>
                             <a href=''>Twitter</a>
                         </li>
                         <li>

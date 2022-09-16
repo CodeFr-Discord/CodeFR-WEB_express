@@ -63,34 +63,6 @@ const Team = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className='team_profile-container'>
-                                <div className='team_profile-header'>
-                                    <img src="https://imgur.com/GJDQa2h.png" alt="" />
-                                </div>
-                                <p className='info team_pseudo'>Zetrox</p>
-                                <p className='info rank'>
-                                    <i className='fa-solid fa-keyboard'></i> Créateur
-                                </p>
-                                <p className='info location'>
-                                    <i class="fa-solid fa-location-dot"></i> Martinique, France
-                                </p>
-                                <div className='team-posts'>
-                                    <p><span>11</span> Repo</p>
-                                    <p><span>58</span> Commits</p>
-                                    <p><span>4</span> Follows</p>
-                                </div>
-                                <div className='team-social'>
-                                    <button class="team__youtube" onclick="window.location.href='https://www.youtube.com/channel/UCVK1QxuUTVgv_tDlFA8ZOmw'">
-                                        <i class="fa-brands fa-youtube"></i>
-                                    </button>
-                                    <button class="team__github" onclick="window.loaction.href='https://github.com/Xiaotoxdev'">
-                                        <i class="fa-brands fa-github"></i>
-                                    </button>
-                                    <button class="team__instagram" onclick="window.laction.href='https://www.instagram.com/xiaotoxdev/'">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </button>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
